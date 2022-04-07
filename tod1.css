@@ -51,11 +51,12 @@ padding-top: 90px;
 }
 .back{
 	position: absolute;
-	margin-left: 200px;
+	margin-left: 440px;
 	margin-top: 5px;
 	text-align: center;
 	font-size: 35px;
 	color: gray;
+
 }
 .maincard{
 	display: flex;
@@ -127,11 +128,15 @@ padding-top: 90px;
 	bottom: 0px;
 	right: 0px;
 	margin: 15px;
+	cursor: pointer;
 }
-.arr{
-	position: absolute;
-	padding-left: 400px;
-	padding-bottom: 200px;
+.arow{
+	position: relative;
+	padding-left: 135px;
+	margin-bottom: 40px;
+	height: 30%;
+	cursor: pointer;
+
 }
 .hov{
 	position: relative;
@@ -142,7 +147,16 @@ padding-top: 90px;
 	border: 0px;
 	cursor: pointer;
 }
+.faf{
+	height: 60px;
+	width: 30px;
+	border: none;
 
+
+}
+.faf:hover{
+	background-color: white;
+}
 
 .but{
 	position: relative;
@@ -151,8 +165,3 @@ padding-top: 90px;
 	text-align: center;
 }
 
-.hov:hover{
-	background-color: silver;
-
-
-}
